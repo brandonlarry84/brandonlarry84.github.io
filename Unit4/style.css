@@ -1,0 +1,31 @@
+body {
+  background-color:blue;
+  width:80%;
+}
+main {
+  background-color:beige;
+}
+p {
+   font-family:monaco;
+  background-color:aqua;
+  color:sandybrown;
+}
+h1 {
+   font-family:papyrus;
+  background-color:orange;
+  color:darkgreen;
+}
+h2{
+   font-family:verdana;
+  background-color:blueviolet;
+  color:azure;
+}
+h3 {
+  font-family:georgia;
+  background-color:yellow;
+  color:red;
+}
+footer {
+  font-style: italic;
+  background-color:coral;
+}
