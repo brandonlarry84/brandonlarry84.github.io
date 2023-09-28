@@ -1,0 +1,36 @@
+img{
+  height: 300px;
+}
+main{
+  background-color:black;
+  color:red;
+}
+
+body{
+  background-image: url("images/infinity.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  
+}
+div.wrapper{
+  width:60%
+  margin:auto;
+  margin-top:30px;
+}
+li{
+  list-style: url("images/skull.jpg");
+}
+main.specialborder,img.specialborder{
+ border-image-slice:12 12 12 12;
+ border-image-width:12px 12px 12px 12px;
+ border-image-outset:0px 0px 0px 0px;
+ border-image-repeat:repeat repeat;
+ border-image-source:url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-5.png");
+ border-style:solid;
+}
+button{
+  background-color:lightgray;
+}
+button:hover{
+  background-color:gray
+}
