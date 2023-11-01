@@ -14,4 +14,7 @@ div#sidebar{
 div#nav{
   display:none;
 }
+a::after{
+  content: " (" attr(href) ") ";
+  }
 }
