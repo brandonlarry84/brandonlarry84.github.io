@@ -8,9 +8,10 @@
     display:none;
   }
 }
-#sidebar{
-  display:none
+div#sidebar{
+  display:none;
 }
-#nav{
-  display:none
+div#nav{
+  display:none;
 }
+
