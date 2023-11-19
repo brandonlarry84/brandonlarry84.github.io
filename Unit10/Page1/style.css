@@ -1,0 +1,24 @@
+table,th,td{
+  border:1px solid;
+  border-color: red;
+  border-collapse: collapse;
+
+}
+th{
+  background-color:orange;
+  text-align:center;
+}
+td{
+  background-color:lightgrey;
+  width:500px;
+}
+table{
+
+  margin: 0 auto;
+}
+header{
+  text-align:center;
+}
+.category{
+  width:100px;
+}
