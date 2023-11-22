@@ -69,19 +69,22 @@ footer { background-color: #FFFFCC;
 @media only screen and (max-width: 720px){
 [class*="col-"] {
   width: 100%;
-  font-size:large;
+
 
 }
 
 p{
   text-align:left;
+
 }
-nav{
+
+
+li{
   border-top-style:solid;
   border-bottom-style:solid;
   border-color:black;
-
 }
+
 a,h1,h2,h3,h4{
   text-align:center;
 }
@@ -91,15 +94,20 @@ h1{
 img{
   height:auto;
 }
-nav,main img,a{
-  float:none;
-}
-nav,main img,a,h1,h2,h3,h4,p,main,nav li,nav ul, nav a{
-  width: 100%;
-  padding-left:0px;
-  padding-right:0px;
-  margin-left:0px;
-  margin-right:0px;
 
+header, nav, main, footer {
+  float: none;
+  display: block;
 }
+#wrapper,main img,h1,h2,h3,h4,p,main,nav li,nav ul,nav,a{
+    width:100%;
+    padding-left:0px;
+    padding-right: 0px;
+    margin-right:0px;
+    margin-left:0px;
+    font-size:40px;
+}
+
+
+
 }
